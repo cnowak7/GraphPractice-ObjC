@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PushButtonView.h
 //  Graph-Practice
 //
 //  Created by Chris Nowak on 6/28/16.
@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface PushButtonView : UIButton
+
+@property (nonatomic) IBInspectable BOOL isAddButton;
 
 @end
-

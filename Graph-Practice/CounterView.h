@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CounterView.h
 //  Graph-Practice
 //
 //  Created by Chris Nowak on 6/28/16.
@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+extern NSInteger const numberOfGlasses;
+
+@interface CounterView : UIView
+
+@property (nonatomic) IBInspectable NSInteger counter;
 
 @end
-
